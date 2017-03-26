@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eldho.androidclass17march.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/username"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:paddingBottom="36dp"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:text="Password"
+        android:layout_below="@+id/username"
+        android:paddingBottom="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/username"
+        android:id="@+id/edituser"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editpassword"
+        android:layout_toEndOf="@+id/password"
+        android:layout_below="@+id/username"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="submit"
+        android:id="@+id/button"
+        android:layout_below="@+id/editpassword"/>
+
+</RelativeLayout>

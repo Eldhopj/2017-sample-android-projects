@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:colorAccent">#FF5252</item>
+        <item name="android:colorPrimaryDark">#303F9F</item>
+        <item name="android:colorPrimary">#3F51B5</item>
+
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="HeaderTextStyle" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

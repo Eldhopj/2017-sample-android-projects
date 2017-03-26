@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">sample</string>
+    <string name="text">MY APP</string>
+
+    <string name="Edit">Enter Data</string>
+
+    <string name="add">Add</string>
+
+
+</resources>
