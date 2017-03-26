@@ -48,8 +48,6 @@ public class MainActivity extends AppCompatActivity {
         // in the list.
         CustomAdapter flavorAdapter = new CustomAdapter(this, generics);
 
-        RecuclerAdapter adapter = new RecuclerAdapter(this);
-
         // Get a reference to the ListView, and attach the adapter to the listView.
         ListView listView = (ListView) findViewById(R.id.listview_flavor);
         listView.setAdapter(flavorAdapter);
